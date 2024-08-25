@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    cursor: default;
+}
+.top{
+    text-align: center;
+    transition: 1s ease;
+    animation: top 2s infinite ;
+    color: white;
+    font-family: Baskervville SC;
+    margin-top: 20px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+@keyframes top{
+    0%, 25%{
+        text-shadow: 0 0 20px #ff00ff;
+    }
+    26%,50%{
+        text-shadow:0 0 20px #ff00cc;
+    }
+    51%,75%{
+        text-shadow:0 0 20px #ff0099;
+    }
+    76%,100%{
+        text-shadow:0 0 20px #cc00ff;
+    }
+
+
+}
+.container{
+    padding: 50px;
+    position: absolute;
+    display: flex;
+}
+.project1{
+    padding:10px;
+    margin-left: 60px;
+    position: relative;
+    width: 350px;
+    height:500px;
+    border-radius: 20px;
+    background-color:#000000;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 30px #ff00ff;
+    border: 2px solid #ff00ff;
+}
+.project1:hover{
+    transform: scale(1.1);
+}
+.project1 img{
+    position:relative;
+    object-fit:fill;
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+    transition: .5s ease-in-out;
+    cursor: default;
+}
+.project1 img:hover{
+    transform: scale(1.1);
+}
+.project1 h2{
+        padding-left: 10px;
+        padding-top: 5px;
+        color: white;
+        text-shadow: 0 0 20px #ff00ff;
+        text-decoration: underline;
+}
+.project1 p{
+    font-family:Edu VIC WA NT Beginner;
+    padding: 10px;
+    position: relative;
+    font-size:20px;
+    color: rgb(247, 168, 216);
+}
+.button{
+    border-radius: 15px;
+    background-color:#ff00ff;
+    box-shadow: 0 0 0.5 rgb(44, 44, 44);
+    align-items: center;
+    margin-left: 110px;
+    border: none;
+    transition: .8s ease-in-out;
+}
+.button:hover{
+    box-shadow: 0 0 25px #ff00ff;
+}
+.button img{
+    width: 20px;
+    height: 20px;
+}
+.button a{
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family:Edu VIC WA NT Beginner;
+}
+
+/* project-1 finish */
+
+.project2{
+    padding:10px;
+    position:relative;
+    margin-left: 50px;
+    width: 350px;
+    height:500px;
+    border-radius: 20px;
+    background-color:black;
+    transition: .5s ease-in-out;
+    box-shadow: 0 0 30px #00ff00;
+    border: 2px solid #00ff00
+}
+.project2:hover{
+    transform: scale(1.1);
+}
+.project2 img{
+    position:relative;
+    object-fit:fill;
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+    transition: .5s ease-in-out;
+    cursor: default;
+}
+.project2 img:hover{
+    transform: scale(1.1);
+}
+.project2 h2{
+        padding-left: 10px;
+        padding-top: 5px;
+        text-decoration: underline;
+        color: white;
+        text-shadow: 0 0 20px #00ff00;
+}
+.project2 p{
+    font-family:Edu VIC WA NT Beginner;
+    padding: 10px;
+    position: relative;
+    font-size:20px;
+    color: #a7f3a7;
+}
+.button2{
+    border-radius: 15px;
+    background-color:#3ee73e;
+    box-shadow: 0 0 0.5 rgb(44, 44, 44);
+    align-items: center;
+    margin-left: 110px;
+    border: none;
+    transition: .8s ease-in-out;
+}
+.button2:hover{
+    box-shadow: 0 0 25px #00ff00;
+}
+.button2 img{
+    width: 20px;
+    height: 20px;
+}
+.button2 a{
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family:Edu VIC WA NT Beginner;
+}
+
+/* project2 finish */
+
+.project3{
+    padding:10px;
+    margin-left: 50px;
+    position: relative;
+    width: 350px;
+    height:500px;
+    border-radius: 20px;
+    background-color:black;
+    transition: .5s ease-in-out;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 25px #00ffff;
+}
+.project3:hover{
+    transform: scale(1.1);
+}
+.project3 img{
+    position:relative;
+    object-fit:fill;
+    height: 200px;
+    border-radius: 10px;
+    width: 100%;
+    transition: .5s ease-in-out;
+    cursor:default;
+}
+.project3 img:hover{
+    transform: scale(1.1);
+}
+.project3 h2{
+        padding-left: 10px;
+        padding-top: 5px;
+        color: white;
+        text-decoration: underline;
+        text-shadow: 0 0 20px #00ffff;
+}
+.project3 p{
+    font-family:Edu VIC WA NT Beginner;
+    padding: 10px;
+    position: relative;
+    font-size:20px;
+    color:#7edddd;
+}
+.button3{
+    border-radius: 15px;
+    background-color:#46ecec;
+    box-shadow: 0 0 0.5 rgb(44, 44, 44);
+    align-items: center;
+    margin-left: 110px;
+    transition: .7s ease-in-out;
+    border: none;
+}
+.button3:hover{
+    box-shadow: 0 0 25px #00ffff;
+}
+.button3 img{
+    width: 20px;
+    height: 20px;
+}
+.button3 a{
+    padding: 4px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family:Edu VIC WA NT Beginner;
+}

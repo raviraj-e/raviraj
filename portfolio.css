@@ -1,0 +1,222 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    background-color: black;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+ /* top left */
+
+.linkname{
+        font-size: 3rem;
+        color: #9dd88b;
+        font-family:Josefin Sans;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 1s ease;
+        text-shadow:  0px 0px 5px #9dd88b;
+        margin-left: 88px;
+        margin-top: 10px;
+    }
+    .top{
+        margin-top: 60px;
+    }  
+.linkname:hover{
+        transform: scale(1.1);
+    }
+
+/* top right */
+
+.top{
+    display: flex;
+}
+.list{
+    list-style: none;
+    display: flex;
+    font-size: 21px;
+    padding: 15px;
+    margin-left: 500px;
+}
+.list li{
+    padding: 15px;
+}
+.list a{
+    color: #9dd88b;
+}
+.link{
+    transition: .5s ease-in;
+    border-bottom: 3px solid transparent;
+}
+.link:hover,
+.link.active{
+    color: #9dd88b;
+    border-bottom: 3px solid #9dd88b;
+}
+.hire{
+    margin-left: 8px;
+    color: #9dd88b;
+    background-color: transparent;
+    border: 2px solid#9dd88b;
+    border-radius: 25px;
+    padding: 15px;
+    font-family:Josefin Sans;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .5s ease;
+    
+}
+.hireme{
+    margin-top: 150px;
+    margin-left: -310px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.hire:hover{
+    background-color: #80cf68;
+    box-shadow: 0  0 20px #80cf68;
+    color: white;
+}
+
+/* top close */
+
+/* bottom */
+.main img{
+    width: 400px;
+    height: 400px;
+}
+
+.main h1,h2{
+        text-align: center;
+        color: #9dd88b;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+        margin-left: 450px;
+        letter-spacing: 2px;
+        cursor:grab;
+}
+.para{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 150px;
+    cursor:default;
+    margin-top: 30px;
+    word-spacing: 5px;
+    color: white;
+    margin-left: 450px;
+    text-align: justify;
+    background: transparent;
+    transition: .5s ease-in-out;
+    position: absolute;
+}
+.para:hover{
+    color: #80cf68;
+    text-shadow: 0  0 10px #9dd88b;
+
+}
+.main h1{
+    font-size: 60px;
+    margin-top: -350px;
+}
+.main h2{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+/* icons */
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 0.2rem solid #9dd88b;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #9dd88b;
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.1) translateY(-5px);
+    /* background-color: #9dd88b; */
+    box-shadow: 0  0 25px #9dd88b;
+}
+.social-icons a img{
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+}
+.social-icons{
+    position: inherit;
+    margin-top: 0px;
+   margin-left: 90px;
+
+}
+
+/* pixels */
+ @media(max-width:995px){
+    .list{
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        width: 40%;
+        border-left: 3px solid #9dd88b;
+        border-bottom: 3px solid #9dd88b;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        background-color: #161616;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+    }
+
+    .list.active{
+        display: block;
+    }
+
+    .list a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+}
+@media (max-width: 1000px){
+    .home{
+        gap: 4rem;
+    }
+}
+
+@media(max-width:995px){
+    .home{
+        flex-direction: column;
+        margin: 5rem 4rem;
+    }
+
+    .home .home-content h3{
+        font-size: 2.5rem;
+    }
+
+    .home-content h1{
+        font-size: 5rem;
+    }
+
+    .home-img img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+}
+
+
